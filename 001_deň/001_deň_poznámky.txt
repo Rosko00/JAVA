@@ -1,0 +1,104 @@
+JAVA
+
+Prehľad jazyka Java
+
+Objektovo orientované programovanie:
+
+Objektovo orientované programovanie (Ďalej len OOP) je základom Javy. 
+V Jazyku Java, ako o jedinom jazyku je možné tvrdiť, že všetky aplikácie sú do istej miery OOP. 
+OOP je v Jave tak zakomponované, že ešte pred napísaním jednoduchých programov v Java napríklad povestného 
+programu Ahoj svet by ste mali pochopiť základné princípy. Preto začnem hneď v prvom videu o aspektoch OOP.
+
+Dve paradigmy:
+
+Všetky počítačové programy pozostávajú z dvoch základných prvkov:
+
+- zdrojový kód
+- dáta
+
+Program sa dá usporiadať buď podľa kódu alebo dát. 
+To znamená, že niektoré programy sú písané podľa toho čo sa deje, a niektoré podľa toho čo je ovplyvnené. 
+A práve tieto dva spomínané koncepty sú základné paradigmy, ktorými sa riadime pri návrhu programu. 
+
+Prví prístup sa nazýva: Procesne orientovaný model. 
+Pri tomto postupe program charakterizujeme ako radu lineárnych krokov. 
+Procesne orientovaný model môžeme ale opísať aj ako kód pracujúci z dátami. 
+
+V snahe o zlepšenie riadenia zložitosti bol vymyslený druhý prístup, ktorý nazývame objektovo orientované 
+programovanie. Pri objektovo orientovanom programovaní je program usporiadaný okolo jeho dát (objektov), 
+a sady definovaných rozhraní k dátam. 
+
+Abstrakcia:
+
+Základným prvkom objektovo orientovaného programovania je abstrakcia. Pomerne účinným spôsobom riadenia 
+abstrakcie je využitie hierarchických klasifikácií. To nám umožňuje vrstviť sémantiku zložitých systémov 
+a rozkladať ich na riaditeľné či spracovateľné častí. Objektovo orientované koncepty vytvárajú základ Javy 
+rovnako ako formulujú základ ľudského chápania. Je dôležité, aby sme chápali, ako sa tieto koncepty 
+prevádzajú do programov. 
+
+Princípy OOP:
+
+Súčasťou všetkých objektovo orientovaných programovacích jazykov sú mechanizmy napomáhajúce implementovať 
+objektovo orientovaný model. 
+
+Týmito mechanizmami sú:
+
+- zapuzdrenie
+- dedičnosť
+- polymorfizmus
+
+Zapuzdrenie:
+
+Pod zapuzdrením sa myslí mechanizmus vzájomne spájajúci kód a dáta, s ktorými manipuluje, a zabezpečuje obidve 
+zmienené komponenty oproti vonkajším zásahom a chybnému použitiu.
+
+V jazyku Java je základom zapuzdrenia trieda. Trieda definuje štruktúru a chovanie (dáta a kód), 
+ktoré budú zdieľané sadou objektov. Každý objekt danej triedy obsahuje štruktúru a chovanie definované v danej triede. 
+Z tohto dôvodu sa objektom niekedy hovorí aj inštancie triedy. S toho vyplýva, že trieda je logickou konštrukciou, 
+zatiaľ čo objekt je fyzickou realitou. 
+
+A pretože, základným systémom triedy je zapuzdrenie určitej zložitosti, každá premenná alebo metóda triedy môže byť 
+označená za privátnu alebo verejnú.
+
+Dedičnosť:
+
+Dedičnosťou sa rozumie proces, pri ktorom jeden objekt získava vlastnosti druhého objektu. Dedičnosť je dôležitá s 
+toho dôvodu že podporuje koncept hierarchickej klasifikácie. 
+
+Dedičnosť ale súvisí aj so zapuzdrením. Pokiaľ daná trieda zapúzdruje určité vlastnosti, 
+tak akákoľvek podtrieda danej triedy je schopná mať rovnaké vlastnosti plus všetky ďalšie vlastnosti, 
+ktoré bude mať pridané v rámci svojej inštancie. Toto je kľúčový koncept, vďaka nemu zložitosť OOP rastie lineárne  
+a nie geometricky. Nová podtrieda dedí všetky vlastnosti všetkých svojich predchodcov. 
+
+Polymorfizmus:
+
+Polymorfizmus (mnohotvárnosť) je vlastnosť umožňujúci použitie jedného rozhrania pre obecnú triedu akcií.
+
+Obecne sa základným konceptom polymorfizmus často vyjadruje frázou jedno rozhranie – niekoľko metód.
+
+Vzájomná spolupráca mechanizmov OOP:
+
+Pri správnom použití sa polymorfizmus, zapuzdrenie a dedičnosť vzájomne kombinujú a vytvárajú tak programovacie prostredie 
+a umožňujú tak vývoj podstatne robustnejších a škálovatelnejších programov, ako je možné použiť v procesne orientovaných 
+modeloch. 
+
+Dobre navrhnutý hierarchia tried je základom pre opakované využitie kódu, do jeho vývoja sme investovali čas. 
+
+Zapuzdrenie nám umožňuje migrovať naše implementácie v priebehu času, bez narušenia kódu závislého na verejnom 
+rozhraní našich tried.
+
+A nakoniec polymorfizmus nám umožňuje vytvárať čistý, účelný, čitateľný a odolný kód.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
