@@ -63,8 +63,8 @@ Posledným znakom na tomto riadku kódu je zložená zátvorka.
 Ta naznačuje začiatok vlastného kódu metódy main().
 
 Dá sa povedať že main() je miestom, kde vaše programy začínajú. 
-Zložité programy budú tvorené veľkým množstvom tried, ale aspoň jedna z nich bude musieť obsahovať metódu main(), 
-aby bolo možné takéto programy vôbec spustiť. 
+Zložité programy budú tvorené veľkým množstvom tried, ale aspoň jedna z nich bude 
+musieť obsahovať metódu main(), aby bolo možné takéto programy vôbec spustiť. 
 
 Ďalší riadok nášho programu bude vyzerať takto:
 
@@ -75,6 +75,44 @@ Všimnite si, že príkaz println() je zakončený bodkočiarkou.
 Platí, že všetky príkazy v jave musia byť zakončené bodkočiarkou.
 
 Prvá zložená zátvorka ukončuje metódu main(), zatiaľ čo druhý zakončuje triedu Example.    
+
+JAVA
+
+Druhý jednoduchý program:
+
+Pravdepodobne žiadny iný koncept nie je dôležitejší než koncept premenných. 
+V nasledujúcom programe uvidíme, ako sa premenné deklarujú v Jave.
+
+Na tomto riadku je deklarovaná celočíselná premenná s názvom num. 
+Je nutné zdôrazniť, že Java (podobne ako mnohé iné programovacie jazyky) vyžaduje,
+aby premenné boli najprv deklarované, až potom je ich možné použiť. 
+
+typ názov_premennej – v Python nie je nutné definovať typ premennej.
+
+V tomto prípade typ je deklarovanie premennej a názov premennej je názov premennej. 
+Jazyk Java rozlišuje niekoľko dátových typov, medzi typy patrí napríklad celé čísla, 
+desatinné čísla a znaky. 
+
+num = 100; zaisťuje priradenie hodnoty 100 premennej num. 
+V jave platí, že operátorom priradeniu je znak rovná-sa. 
+Dostávame sa tak k ďalšiemu riadku ukážkového programu, ktorý nám zabezpečuje výstup hodnoty  
+num spolu z textom (stringom) uvedeným pred hodnotou. V tomto konkrétnom prípade znamienko 
++ spôsobí to že hodnota v premennej num je pripojená k reťazcu ktorý ich predchádza 
+a až potom je zobrazený celý reťazec. 
+
+Tento prístup je možné zjednodušene povedať. Pomocou operátora + môžeme v rámci jediného 
+príkazu println() pripojiť toľko prvkov, koľko potrebujeme.
+
+Prechádzame na ďalší riadok ukážkového programu, v ktorom je premenná num priradená 
+hodnota num vynásobená dvomi. 
+
+A na týchto riadkoch, už vidíte niekoľko noviniek. Je použitá vstavaná metóda print(). 
+Metóda print() je v podstate totožná s metódou println(). 
+Jediným rozdielom je skutočne to, že po každom volaní negeneruje prechod na nový riadok. 
+Pozrime sa teraz na volanie metódy println(). Všimnite si, že je v ňom použitá samotná premenná num. 
+Platí, že tak metóda print(), tak aj metóda println() 
+môžu byť použité k výstupu hodnoty ktoréhokoľvek vstavaného dátového typu jazyka Java.    
+
 
 
 
