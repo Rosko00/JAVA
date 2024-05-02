@@ -1,0 +1,73 @@
+ JAVA
+
+ Dva riadiace príkazy:
+
+ Aj keď si budeme podrobnejšie vysvetľovať riadiace príkazy neskôr 
+ teraz si povieme len o dvoch a to preto, aby sme ich mohli využiť 
+ v ukážkových programoch. Okrem toho nám tieto príkazy pomôžu získať 
+ predstavu  o ďalších veľmi dôležitých aspektoch javy: o blokoch kódu.
+
+Príkaz if 
+
+Príkaz if funguje v jazyku Java veľmi podobne ako ten istý príkaz v 
+ostatných programovacích jazykoch.
+
+If(podmienka) príkaz;
+
+Podmienka tu vyjadruje booleovský výraz. Je podmienka splnená, 
+tak je  prevedený príkaz. Pokiaľ podmienka nie je splnená príkaz 
+sa nevykoná. Typický príklad si teraz ukážeme. 
+
+if(num <100) System,out.println(“Hodnota num je menšia ako 100“);
+
+Popíšeme si tento kód podrobne, ak obsahuje premenná num hodnotu 
+menšiu ako 100, je celý podmienkový výraz pravdiví a systém vykoná 
+príkaz println(). Naopak pokiaľ premenná num obsahuje hodnotu rovnú 
+alebo väčšiu ako 100 tak sa príkaz println() nevykoná.
+
+Všimnite si že pri testovaní rovnosti sa používajú dve rovná sa za 
+sebou. V tomto ukážkovom programe si všimnite ešte jednu vec.
+
+Int x,y;
+
+Riadok deklaruje dve celočíselné premenné x a y a to na základe 
+použitia zoznamu, v ktorom sú jednotivé premenné oddelené čiarkou. 
+
+Slučka for
+
+Ako možno viete s iných programátorských skúseností, slučky sú 
+dôležitou súčasťou takmer každého programovacieho jazyka. 
+Java nie je v tomto smere žiadnou výnimkou. 
+
+for (inicializácia; podmienka: iterácia) príkaz;
+
+V tejto neobvyklej podobe, časť inicializácie zaisťuje priradenie 
+počiatočnej hodnoty riadiacej premenné slučky. Podmienkou tak je 
+boolovský výraz, testujúci hodnotu tejto riadiacej premennej.  
+
+Výraz iterácia hovorí, akým spôsobom sa mení hodnota riadiacej 
+premennej slučky pri každom priechode slučkou.
+
+V tomto príklade x je riadiaca premenná slučky. 
+V rámci inicializácie slučky for je táto premenná priradená hodnota 
+0. Na začiatku každej iterácie ( a to vrátane tej prvej) je 
+kontrolovaná podmienka. Ak je hodnota x menšia ako 10 (x<10). 
+Ak je výsledok tohto testu pravdivý, je prevedený príkaz println() 
+a následne je prevedená iteračná časť slučky.
+
+Pre zaujímavosť je vhodné uviesť, že v profesionálne napísaných 
+programoch Javy sa takmer nikdy neuvidíte iteračnú časť slučky 
+napísanú spôsobom, ktorý sme použili v našom príklade. To znamená 
+že s podobným príkazom sa stretnete len zriedkavo. 
+
+Dôvodom je t, že Java podporuje aj špeciálne operátory pre 
+prírastok premenných, umožňujúci prevedenie tejto operácie 
+podstatne efektívnejšie. Zmieňovaným operátorom je ++.
+
+Vrátime sa späť k nášmu ukážkovému programu, tak celá slučka for 
+bude obvykle vypadať takto:
+
+for(x = 0; x < 10; x ++)
+
+Analogicky jazyk Java podporuje aj operátor úbytok, ktorý je dve 
+znamienka zasebou: --. Tento operátor znižuje hodnotu operátoru o 1.  
