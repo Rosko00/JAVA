@@ -1,0 +1,87 @@
+JAVA
+
+Prvý jednoduchý program:
+
+Stručná popis OPP v Java je za nami. Môžeme sa teraz pozrieť na skutočný program Java. 
+Začneme teda, že zkompilujeme a spustíme krátky ukážkový program uvedený nižšie. 
+Ako si ukážeme za chvíľku, tieto úkony ale predstavujú o niečo viac práce, 
+ako si môžete na prvá pohľad myslieť. 
+
+Zadanie programu:
+
+Pre väčšinu programovacích jazykov platí, že názov súboru, 
+v ktorom je uložený zdrojový kód programu, je nevýznamný. 
+Avšak v prípade Javy tomu tak nie je. V Java je zdrojový súbor oficiálne nazývaný kompilačnou jednotkou. 
+Kompilátor Java vyžaduje, aby zdrojové súbory používali príponu java. 
+
+Ak si kód prezriete podrobnejšie, zistíte, že názov triedy je Example.  
+Toto je nie náhoda. V Java platí, že kód musí byť vo vnútri triedy. 
+Pritom ale platí, že názov hlavnej triedy by mal byť totožný z názvom súboru. 
+Nakoľko java rozlišuje veľké a malé písmená tak by sme sa mali uistiť že názov 
+súboru a názov triedy je identický aj s pohľadu veľkých a malých písmen. 
+
+Bližší pohľad na zdrojový kód:
+
+Aj keď si myslíme, že náš prvý program je v celku krátky. 
+Jeho súčasťou je niekoľko kľúčových prvkov, ktoré sú spoločné pre všetky programy Java. 
+Poďme preskúmať jednotlivé časti nášho programu. 
+
+Toto je komentár. Podobne ako väčšina ostatných programovacích jazykov  aj Java umožňuje 
+ukladať poznámky do zdrojového súboru programu. Ja som ho neuviedol, 
+lebo nebolo moc načo písať komentár. Niekedy je trendom zbytočne komentovať kód na veci, 
+ktoré sú dané základmi programovania.
+
+Nasledujúci riadok kódu nášho ukážkového programu vyzerá takto:
+
+Tento riadok využíva kľúčové slovo class k deklaráciou toho, že je definovaná nová trieda. 
+Celá definícia triedy,vrátane všetkých členov musí byť uzatvorená medzi zložené zátvorky. 
+
+Náš program začína volať main ().
+
+Kľúčové slovo public je modifikátorom prístupu, pomocou neho môže programátor riadiť 
+viditeľnosť členov triedy. Prechádza názvom členom triedy kľúčové slovo public, 
+tak k tomu členu pristupuje aj kód ktorý sa nachádza mimo triedy, v ktorej je definovaný. 
+
+Opakom príkazu public je private,ktoré zabraňuje členom triedy kódu nachádzajúcemu sa mimo triedu. 
+
+V tomto prípade metóda main, musí byť deklarovaná ako public, 
+lebo pri spustení programu je volaný kód, ktorý sa nachádza mimo triedu. 
+
+Kľúčové slovo static potom umožňuje volanie triedy main, bez nutnosti vytvorenia konkrétnej 
+inštancie príslušnej triedy. Toto je dôležité z toho dôvodu, že metóda main(), 
+je volaná virtuálnym strojom java ešte pred vytvorením objektu. 
+Následne kľúčové slovo void vraví kompilátoru, že metóda main(), nevracia žiadnu hodnotu. 
+Ako si povieme v ďalších videách, metódy môžu tiež vracať hodnoty. 
+
+Všeobecne platí, že aj keď metóda nevracia žiadne parametre, 
+musia za názvom metódy nasledovať prázdne zátvorky. 
+
+string args [] deklaruje parameter s názvom args, ktorý je polom inštancií triedy strings. 
+(Pole je kolekciou podobných objektov).
+
+Posledným znakom na tomto riadku kódu je zložená zátvorka. 
+Ta naznačuje začiatok vlastného kódu metódy main().
+
+Dá sa povedať že main() je miestom, kde vaše programy začínajú. 
+Zložité programy budú tvorené veľkým množstvom tried, ale aspoň jedna z nich bude musieť obsahovať metódu main(), 
+aby bolo možné takéto programy vôbec spustiť. 
+
+Ďalší riadok nášho programu bude vyzerať takto:
+
+Celý riadok začína system.out. System je preddefinovaná trieda začínajúca prístup 
+k systému a out je výstupný prúd, pripojený ku konzole.
+
+Všimnite si, že príkaz println() je zakončený bodkočiarkou. 
+Platí, že všetky príkazy v jave musia byť zakončené bodkočiarkou.
+
+Prvá zložená zátvorka ukončuje metódu main(), zatiaľ čo druhý zakončuje triedu Example.    
+
+
+
+
+
+
+
+
+
+
