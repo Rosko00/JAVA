@@ -1,24 +1,11 @@
-/*
- * výpočet vzdialenosti svetla za definovaný čas.
- * Použité sú premenné long.
- */
 public class svetlo {
     public static void main(String[] args) {
-        int lightspeed;
-        long days;
-        long seconds;
-        long distance;
+        int rychlostSvetla = 299792; // přibližná rychlost světla v km/s
+        long dni = 1000; // počet dní
+        long sekundy = dni * 24 * 60 * 60; // převést dny na sekundy
+        long vzdialenost = rychlostSvetla * sekundy; // vypočítať vzdialenosť
 
-        // približná rýchlosť svetla je: 299792
-
-        days = 1000; // počet dní
-
-        seconds = days - 24 * 60 * 60; //prevod dní na sekundy
-
-        distance = lightspeed * seconds //výpočet vzdialenosti
-
-        System.out.print("Za" + days);
-        System.out.print("dní svetlo prejde zhruba");
-        System.out.println(distance + "kilometrov.");
+        System.out.print("Za " + dni + " dní svetlo prejde zhruba ");
+        System.out.println(vzdialenost + " kilometrov.");
     }
 }
