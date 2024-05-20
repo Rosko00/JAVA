@@ -10,13 +10,13 @@ public class premenne {
         String meno = "Ján";
 
         // Deklarácia a inicializácia booleanovej hodnoty
-        boolean jeStudent = true;
+        boolean JeProgramator = true;
 
         // Vypísanie hodnôt premenných
         System.out.println("Meno: " + meno);
         System.out.println("Vek: " + vek);
         System.out.println("Hmotnosť: " + hmotnost);
-        System.out.println("Je študent: " + jeStudent);
+        System.out.println("Je študent: " + JeProgramator);
 
         // Zmena hodnoty premennej
         vek = 26;
