@@ -6,7 +6,7 @@ public class triednyRozsah {
     }
 
     public static void main(String[] args) {
-        TriednePremenne obj = new TriednePremenne();
+        triednyRozsah obj = new triednyRozsah();
         obj.ukazTriednuPremennu();
     }
 }
