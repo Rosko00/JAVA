@@ -1,4 +1,4 @@
-public class lokalna_premenna {
+public class lokalnyRozsah {
     public void ukazMetodu() {
         int lokVar = 5; // Lokálna premenná
         System.out.println("Hodnota lokVar: " + lokVar);
