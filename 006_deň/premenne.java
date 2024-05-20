@@ -1,13 +1,13 @@
 public class premenne {
     public static void main(String[] args) {
         // Deklarácia a inicializácia celého čísla
-        int vek = 25;
+        int vek = 42;
         
         // Deklarácia a inicializácia desatinného čísla
-        double hmotnost = 70.5;
+        double hmotnost = 100.2;
         
         // Deklarácia a inicializácia reťazca
-        String meno = "Ján";
+        String meno = "Marián";
 
         // Deklarácia a inicializácia booleanovej hodnoty
         boolean JeProgramator = true;
