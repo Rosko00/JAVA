@@ -16,10 +16,10 @@ public class premenne {
         System.out.println("Meno: " + meno);
         System.out.println("Vek: " + vek);
         System.out.println("Hmotnosť: " + hmotnost);
-        System.out.println("Je študent: " + JeProgramator);
+        System.out.println("Som Programátor : " + JeProgramator);
 
         // Zmena hodnoty premennej
-        vek = 26;
+        vek = 43;
         System.out.println("Aktualizovaný vek: " + vek);
     }
 }
