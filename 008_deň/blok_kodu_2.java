@@ -1,3 +1,4 @@
+/* Blok kódu podmienky (if - else) */
 public class blok_kodu_2 {
     public static void main(String[] args) {
         int number = 10;
@@ -11,4 +12,7 @@ public class blok_kodu_2 {
         }
     }
 }
-}
+/* Vysvetlenie: Tento kód definuje triedu 'blok_kodu_2' s metódou 'main'.
+ * Premenná 'number' je inicializovaná na 10. V bloku 'if' sa kontroluje, či je číslo
+ * kladné, záporné alebo nula a podľa toho sa vypíše príslušná správa.
+ */
