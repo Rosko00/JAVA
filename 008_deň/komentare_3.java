@@ -32,3 +32,4 @@ public class komentare_3 {
         return age;
     }
 }
+/*  */
