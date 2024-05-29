@@ -1,5 +1,8 @@
 /* Aritmetické operátory */
 public class aritmeticke_operatory {
+    public static void main(String[] args) {
+        
+    }
     
 }
 // ( +  ) = Súčet
