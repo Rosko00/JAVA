@@ -20,5 +20,7 @@ public class zakladne_aritmeticke_oepracie {
         System.out.println("Aritmetika z desatinnými číslami:");
 
         
+
+
     }
 }
