@@ -1,5 +1,3 @@
-package 010_deň;
-
 public class bitove_operatory {
     public static void main(String[] args) {
         // (~) = Negovanie bitov (NOT)
@@ -16,6 +14,5 @@ public class bitove_operatory {
         // (>>>=) = Posun doprava s priradením bez znamienka
         // (<<=) = Posun doľava s priradením
 
-    }
-    
+    } 
 }
