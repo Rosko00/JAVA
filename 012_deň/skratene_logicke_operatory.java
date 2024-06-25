@@ -1,4 +1,4 @@
-public class skraene_logicke_operatory {
+public class skratene_logicke_operatory {
     public static void main(String[] args) {
         boolean a = true;
         boolean b = false;
