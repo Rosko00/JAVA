@@ -18,7 +18,7 @@ public class stream {
         a = b = c = 100;
         System.out.println(a + b + c );
 
-        int ab = (b + 3);
+        int ab = b + 3;
         System.out.println(ab);
     }
     
