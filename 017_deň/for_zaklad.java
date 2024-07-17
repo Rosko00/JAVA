@@ -1,6 +1,6 @@
 public class for_zaklad {
     public static void main(String[] args) {
-        for (initialization; termination; increment) {
+        for (initialization, termination, increment ) {
             // Body of the loop (telo slučky)
         }
     }

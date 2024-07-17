@@ -4,7 +4,7 @@ public class slucka_for_1 {
         int n;
 
         for (n = 10; n>0; n--)
-            System.out.println("tik" + n);
+            System.out.println("číslo " + n);
         
     }
     
