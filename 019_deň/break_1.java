@@ -1,4 +1,4 @@
-public class continue_1 {
+public class break_1 {
     public static void main(String[] args) {
         for (int i = 0; i < 100; i ++) {
             if ( i == 10) break; // ukončenie slučky ak je i == 10
