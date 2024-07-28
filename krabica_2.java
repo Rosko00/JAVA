@@ -1,4 +1,4 @@
-class krabica_2 {
+class krabica_2 {    
     double width;
     double height;
     double depth;
