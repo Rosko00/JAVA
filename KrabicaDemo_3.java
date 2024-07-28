@@ -16,38 +16,36 @@ class KrabicaDemo_3 {
         Scanner sc = new Scanner(System.in);
 
         // Vytvorenie dvoch objektov krabica
-        Krabica mojakrabica_1 = new Krabica();
-        Krabica mojakrabica_2 = new Krabica();
+        Krabica mojakrabica_3 = new Krabica();
+        Krabica mojakrabica_4 = new Krabica();
 
-        // Zadanie hodnôt pre mojakrabica_1
-        System.out.println("Zadajte šírku prvej krabice:");
-        mojakrabica_1.width = sc.nextDouble();
-        System.out.println("Zadajte výšku prvej krabice:");
-        mojakrabica_1.height = sc.nextDouble();
-        System.out.println("Zadajte hĺbku prvej krabice:");
-        mojakrabica_1.depth = sc.nextDouble();
+        // Zadanie hodnôt pre mojakrabica_3
+        System.out.println("Zadajte šírku tretej krabice:");
+        mojakrabica_3.width = sc.nextDouble();
+        System.out.println("Zadajte výšku tretej krabice:");
+        mojakrabica_3.height = sc.nextDouble();
+        System.out.println("Zadajte hĺbku tretej krabice:");
+        mojakrabica_3.depth = sc.nextDouble();
 
         // Vymazanie bufferu Scanner
         sc.nextLine(); // Toto je užitočné pre čítanie ďalšieho riadku
 
-        // Zadanie hodnôt pre mojakrabica_2
-        System.out.println("Zadajte šírku druhej krabice:");
-        mojakrabica_2.width = sc.nextDouble();
-        System.out.println("Zadajte výšku druhej krabice:");
-        mojakrabica_2.height = sc.nextDouble();
-        System.out.println("Zadajte hĺbku druhej krabice:");
-        mojakrabica_2.depth = sc.nextDouble();
+        // Zadanie hodnôt pre mojakrabica_4
+        System.out.println("Zadajte šírku štvrtej krabice:");
+        mojakrabica_4.width = sc.nextDouble();
+        System.out.println("Zadajte výšku štvrtej krabice:");
+        mojakrabica_4.height = sc.nextDouble();
+        System.out.println("Zadajte hĺbku štvrtej krabice:");
+        mojakrabica_4.depth = sc.nextDouble();
 
-        // Výpočet objemu pre mojakrabica_1
-        double objem1 = mojakrabica_1.vypocitajObjem();
-        System.out.println("Objem prvej krabice je: " + objem1);
+        // Výpočet objemu pre mojakrabica_3
+        double objem3 = mojakrabica_3.vypocitajObjem();
+        System.out.println("Objem tretej krabice je: " + objem3);
 
-        // Výpočet objemu pre mojakrabica_2
-        double objem2 = mojakrabica_2.vypocitajObjem();
-        System.out.println("Objem druhej krabice je: " + objem2);
+        // Výpočet objemu pre mojakrabica_4
+        double objem4 = mojakrabica_4.vypocitajObjem();
+        System.out.println("Objem štvrtej krabice je: " + objem4);
 
         sc.close();
     }
 }
-    
-        
