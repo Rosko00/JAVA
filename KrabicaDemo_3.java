@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Krabica {
+class Krabica_new {
     double width;
     double height;
     double depth;
@@ -16,8 +16,8 @@ class KrabicaDemo_3 {
         Scanner sc = new Scanner(System.in);
 
         // Vytvorenie dvoch objektov krabica
-        Krabica mojakrabica_3 = new Krabica();
-        Krabica mojakrabica_4 = new Krabica();
+        Krabica_new mojakrabica_3 = new Krabica_new();
+        Krabica_new mojakrabica_4 = new Krabica_new();
 
         // Zadanie hodnôt pre mojakrabica_3
         System.out.println("Zadajte šírku tretej krabice:");
