@@ -26,7 +26,6 @@ class KrabicaDemo_2 {
         // Výpočet objemu krabica_2
         objem = mojakrabica_2.width * mojakrabica_2.height * mojakrabica_2.depth;
         System.out.println ("Objem krabice 2 je: " + objem);
-        
-        
+         
     }
 }
