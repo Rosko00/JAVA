@@ -1,12 +1,12 @@
 // Trieda krabica teraz používa k inicializácií rozmeru krabice
-class krabica {
+class krabica10 {
     double sirka;
     double vyska;
     double hlbka;
 
 
     // Toto je konštruktor triedy krabica
-    krabica (double w, double h, double d) {
+    krabica10 (double w, double h, double d) {
         System.out.println("Inicializácia krabica");
         sirka = w;
         vyska = h;
@@ -23,8 +23,8 @@ class krabicaDemo7 {
     public static void main(String[] args) {
         
         // Deklarácia alokácia a inicializácia objektu triedy krabuica
-        krabica mojakrabica1 = new krabica(10,20,15);
-        krabica mojakrabica2 = new krabica(3,6,9);
+        krabica10 mojakrabica1 = new krabica10(10,20,15);
+        krabica10 mojakrabica2 = new krabica10(3,6,9);
 
         double obj;
 
